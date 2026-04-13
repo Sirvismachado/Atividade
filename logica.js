@@ -7,6 +7,7 @@ async function buscarClima() {
     const dados = await resposta.json();
     console.log(url);
 
+    //Caso a cidade não exista
     if(dados.message === "NOT_FOUND"){
         document.getElementById("resultado").innerHTML = `
             <p>Essa cidade não existe</p>
