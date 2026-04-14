@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
     <div class="container">
         <h1>Tempo Agora</h1>
         <i class="fa fa-mixcloud" style="font-size:48px;color:rgb(19, 95, 209)"></i>
@@ -26,6 +27,19 @@
                 <div id="resultado">Nenhum dado ainda...</div>
             </div>    
     </div>
+
+    <div class="caixa">
+    
+        <h1>Tempo Agora</h1>
+
+        <input type="text" id="cidade" placeholder="Digite o nome da cidade" value=""/>
+        <button onclick="buscarClima()" id="buscar">Buscar</button>
+
+        <div id="resultado"></div>
+    </div>
+ 
+
     <script src="logica.js"></script>
+   
 </body>
 </html>

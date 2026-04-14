@@ -1,12 +1,25 @@
-body{
+body {
+
     font-family: "Boldonse", system-ui;
     text-align: center;
     min-height: 100vh;
     margin: 0;
     background-image: url(Imagem/fundo.jpg.jpg);
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(imagens/fundo.jpeg);
+
     background-size: cover;
     background-position: center;
 }
+
 
 input {
     width: 100%;
@@ -41,4 +54,27 @@ input, button {
     border-radius: 20px;
     text-align: center;
     background-color: rgb(143, 211, 243);
+
+.caixa {
+    width: 400px;
+    height: 500px;
+    background-image: url(imagens/fundo.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    border-radius: 12px;
+    box-shadow:  10px aquamarine;
+    text-align: center;
+
+}
+h1{
+    font-size: 60px;
+}
+input {
+    font-size: 20px;
+}
+
+button {
+font-size: 20px;
+
 }
